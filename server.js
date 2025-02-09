@@ -1,3 +1,9 @@
+
+mkdir my-server
+cd my-server
+npm init -y
+npm install express dotenv
+touch server.js .env
 require("dotenv").config();
 const express = require("express");
 
